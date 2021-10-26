@@ -327,6 +327,13 @@ a {
 .about-item:not(:last-child) {
   margin-right: 30px;
 }
+.about-item {
+  background-color: var(--primary-background-color);
+}
+.about-item:hover,
+.about-item:focus {
+  box-shadow: var(--portfolio-list-item-shadow);
+}
 .portfolio-text {
   margin-bottom: 50px;
 }
