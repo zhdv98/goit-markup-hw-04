@@ -329,11 +329,13 @@ a {
 }
 .about-item {
   background-color: var(--primary-background-color);
-}
-.about-item:hover,
-.about-item:focus {
   box-shadow: var(--portfolio-list-item-shadow);
 }
+/* 
+.about-item:hover,
+.about-item:focus {
+  
+} */
 .portfolio-text {
   margin-bottom: 50px;
 }
